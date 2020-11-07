@@ -9,4 +9,4 @@
   <li>Glide</li>
   </ol>
 <h3>App Trial :-</h3>
-<img src="ezgif-3-b0d6cc88f535"/>
+<img src="ezgif-3-b0d6cc88f535.gif"/>
