@@ -1,10 +1,9 @@
-package com.vasugajjar.imagesearchapp.ui.gallery
+package com.vasugajjar.imagesearchapp
 
 import androidx.hilt.Assisted
 import androidx.hilt.lifecycle.ViewModelInject
 import androidx.lifecycle.*
 import androidx.paging.cachedIn
-import com.vasugajjar.imagesearchapp.data.UnsplashRepository
 
 class GalleryViewModel @ViewModelInject constructor(
     private val repository: UnsplashRepository,

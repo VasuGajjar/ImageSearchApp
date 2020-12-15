@@ -1,9 +1,8 @@
-package com.vasugajjar.imagesearchapp.data
+package com.vasugajjar.imagesearchapp
 
 import androidx.paging.Pager
 import androidx.paging.PagingConfig
 import androidx.paging.liveData
-import com.vasugajjar.imagesearchapp.api.UnsplashApi
 import javax.inject.Inject
 import javax.inject.Singleton
 

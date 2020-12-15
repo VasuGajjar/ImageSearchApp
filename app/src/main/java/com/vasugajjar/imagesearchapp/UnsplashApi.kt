@@ -1,6 +1,5 @@
-package com.vasugajjar.imagesearchapp.api
+package com.vasugajjar.imagesearchapp
 
-import com.vasugajjar.imagesearchapp.BuildConfig
 import retrofit2.http.GET
 import retrofit2.http.Headers
 import retrofit2.http.Query

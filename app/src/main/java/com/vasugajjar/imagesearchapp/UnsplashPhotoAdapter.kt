@@ -1,4 +1,4 @@
-package com.vasugajjar.imagesearchapp.ui.gallery
+package com.vasugajjar.imagesearchapp
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -7,8 +7,6 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
-import com.vasugajjar.imagesearchapp.R
-import com.vasugajjar.imagesearchapp.data.UnsplashPhoto
 import com.vasugajjar.imagesearchapp.databinding.ItemUnsplashPhotoBinding
 
 class UnsplashPhotoAdapter(private val listner: OnItemClickListener) :

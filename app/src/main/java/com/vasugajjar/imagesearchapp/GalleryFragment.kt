@@ -1,4 +1,4 @@
-package com.vasugajjar.imagesearchapp.ui.gallery
+package com.vasugajjar.imagesearchapp
 
 import android.os.Bundle
 import android.view.Menu
@@ -9,13 +9,13 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import androidx.paging.LoadState
-import com.vasugajjar.imagesearchapp.R
-import com.vasugajjar.imagesearchapp.data.UnsplashPhoto
 import com.vasugajjar.imagesearchapp.databinding.FragmentGalleryBinding
+import com.vasugajjar.imagesearchapp.ui.gallery.GalleryFragmentDirections
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
-class GalleryFragment : Fragment(R.layout.fragment_gallery), UnsplashPhotoAdapter.OnItemClickListener {
+class GalleryFragment : Fragment(R.layout.fragment_gallery),
+    UnsplashPhotoAdapter.OnItemClickListener {
     private val viewModel by viewModels<GalleryViewModel>()
 
     private var _binding: FragmentGalleryBinding? = null

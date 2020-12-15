@@ -1,7 +1,6 @@
-package com.vasugajjar.imagesearchapp.data
+package com.vasugajjar.imagesearchapp
 
 import androidx.paging.PagingSource
-import com.vasugajjar.imagesearchapp.api.UnsplashApi
 import retrofit2.HttpException
 import java.io.IOException
 

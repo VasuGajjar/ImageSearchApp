@@ -1,6 +1,5 @@
-package com.vasugajjar.imagesearchapp.di
+package com.vasugajjar.imagesearchapp
 
-import com.vasugajjar.imagesearchapp.api.UnsplashApi
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
