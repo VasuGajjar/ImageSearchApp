@@ -21,6 +21,6 @@
         tools:layout="@layout/fragment_details">
         <argument
             android:name="photo"
-            app:argType="com.codinginflow.imagesearchapp.data.UnsplashPhoto" />
+            app:argType="com.vasugajjar.imagesearchapp.UnsplashPhoto" />
     </fragment>
 </navigation>

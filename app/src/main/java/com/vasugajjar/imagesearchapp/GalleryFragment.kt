@@ -5,12 +5,13 @@ import android.view.Menu
 import android.view.MenuInflater
 import android.view.View
 import androidx.appcompat.widget.SearchView
+import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import androidx.paging.LoadState
 import com.vasugajjar.imagesearchapp.databinding.FragmentGalleryBinding
-import com.vasugajjar.imagesearchapp.ui.gallery.GalleryFragmentDirections
+import com.vasugajjar.imagesearchapp.GalleryFragmentDirections
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
